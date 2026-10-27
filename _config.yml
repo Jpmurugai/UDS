@@ -1,0 +1,19 @@
+title: CAN FD and UDS Learning Guide
+description: Theory, practical lessons, standards, and a low-cost hardware learning path.
+url: https://jpmurugai.github.io
+baseurl: /UDS
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+header_pages:
+  - index.md
